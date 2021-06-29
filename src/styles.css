@@ -1,0 +1,85 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.wrapper {
+  width: 90vw;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+p {
+  max-width: 100vw;
+}
+
+.inputs {
+  margin-bottom: 1rem;
+}
+
+.comments {
+  margin-top: 2rem;
+  width: 90vw;
+  margin: 1rem auto;
+}
+
+.useIco {
+  width: 5rem;
+  height: 5rem;
+  margin-right: 1rem;
+}
+
+.cartinka {
+  width: 50%;
+}
+
+.comments > *:nth-child(odd) {
+  background-color: rgb(125, 150, 136);
+}
+
+.buttonsWrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.ant-btn-primary {
+  background-color: rgb(0, 150, 50) !important;
+  border: 1px solid rgb(0, 150, 50) !important;
+  text-transform: uppercase;
+  font-size: 0.8125rem !important;
+}
+
+.ant-btn-primary:hover {
+  background-color: rgb(0, 100, 50) !important;
+  border: 1px solid rgb(0, 150, 50) !important;
+}
+
+.ant-btn-secondary {
+  background-color: rgb(194, 160, 58) !important;
+  border: 1px solid rgb(194, 160, 58) !important;
+  text-transform: uppercase;
+  font-size: 0.8125rem !important;
+  color: white !important;
+}
+
+.ant-btn-secondary:hover {
+  background-color: rgb(194, 110, 58) !important;
+  border: 1px solid rgb(194, 110, 58) !important;
+  color: white !important;
+}
+
+.jokeWrapper {
+  display: flex;
+  max-width: 90vw;
+  width: 100%;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.jokeContent {
+  margin-left: 1rem;
+}
+
+.commentWrapper {
+  padding-bottom: 4rem;
+}
